@@ -2,13 +2,12 @@ from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
 import chromedriver_autoinstaller
-import os
 
 # Install ChromeDriver automatically
 chromedriver_autoinstaller.install()
 
 # Define Chrome binary path
-GOOGLE_CHROME_PATH = "/usr/local/bin/google-chrome"
+GOOGLE_CHROME_PATH = "/usr/bin/google-chrome"
 
 # Set Chrome options
 chrome_options = Options()
