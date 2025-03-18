@@ -1,4 +1,4 @@
-selenium==4.15.2
-webdriver-manager==4.0.0
-requests==2.31.0
-chromedriver-autoinstaller==0.6.2
+selenium
+webdriver-manager
+requests
+chromedriver-autoinstaller
